@@ -1,0 +1,106 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header .header-content p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Seção de História */
+.story {
+    background-color: #2d2d2d;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.story h2 {
+    color: #ff0000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.story p {
+    font-size: 1.1rem;
+    color: #ddd;
+    line-height: 1.8;
+}
+
+/* Estilo para a seção de personagens */
+.characters {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.character {
+    background-color: #1a1a1a;
+    border: 3px solid #ff0000;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.character img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.character h3 {
+    color: #ff0000;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.character p {
+    color: #ccc;
+    font-size: 1rem;
+}
+
+/* Efeito ao passar o mouse */
+.character:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
