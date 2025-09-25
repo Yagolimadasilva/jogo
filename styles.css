@@ -54,10 +54,17 @@ header .header-content p {
 
 /* Estilo para a seção de personagens */
 .characters {
+    background-image: url(https://evilhazard.com.br/wp-content/uploads/2022/06/re44FVKxzYtWIAECGTh.jpg);
+    background-size:cover;
+    background-position: center center;
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: 15px;
+}
+.characters h2{
+    display: flex;
+    align-items: self-start;
 }
 
 .character {
