@@ -1,12 +1,13 @@
 body {
-	background: #000000;
+	background-image: url(https://evilhazard.com.br/wp-content/uploads/2022/06/re44FVKxzYtWIAECGTh.jpg);
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
 		helvetica neue, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
 	font-size: 16px;
-	color: #000;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 }
+
 
 .swiper {
 	width: 100%;
@@ -66,7 +67,7 @@ body {
 }
 /* Estilo para a seção de personagens */
 .characters {
-    background-image: url(https://evilhazard.com.br/wp-content/uploads/2022/06/re44FVKxzYtWIAECGTh.jpg);
+    background-image: url();
     background-size:cover;
     background-position: center center;
     padding: 40px;
