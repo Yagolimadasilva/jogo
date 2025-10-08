@@ -26,10 +26,10 @@ body {
 	display: block;
 	width: 100%;
 	aspect-ratio: 11 / 16;
-	object-fit: cover;
+	object-fit: contain;
 }
 .swiper-wrapper {
-	padding: 6rem 0;
+	padding: 0;
 }
 
 .info {
@@ -79,4 +79,11 @@ body {
 .swiper-slide.swiper-slide-active .info {
 	bottom: 0;
 	opacity: 1;
+}
+
+{
+	text-decoration: none;
+		color: #ffffff;
+		background: #6c91c2;
+
 }
