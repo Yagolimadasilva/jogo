@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+
 body {
 	background-image: url(https://evilhazard.com.br/wp-content/uploads/2022/06/re44FVKxzYtWIAECGTh.jpg);
-	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+	font-family: "BBH Sans Bogle",-apple-system, BlinkMacSystemFont, avenir next, avenir,
 		helvetica neue, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
 	font-size: 16px;
 	color: #fff;
 	margin: 0;
 	padding: 0;
 }
+font-family: "BBH Sans Bogle", sans-serif;
 
-
-.swiper {
+.swiper {font-family: "BBH Sans Bogle", sans-serif;
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -59,7 +61,7 @@ body {
 	}
 	& .button {
 		text-decoration: none;
-		color: #ffffff;
+		color: #bbb4b4;
 		background: #6c91c2;
 		padding: 0.5rem 1rem;
 		border-radius: 0.25rem;
